@@ -1,0 +1,4 @@
+Bonjour tout le monde!
+Ceci est un fichier
+Pour tester les IO
+dans le cadre du cours SdD
