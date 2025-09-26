@@ -3,11 +3,13 @@ package mv.sdd.io.json;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import mv.sdd.io.json.services.JsonItemService;
+import mv.sdd.io.json.services.JsonService;
 import mv.sdd.vente.Client;
 import mv.sdd.vente.Item;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class UtilisationJsonService {
@@ -52,6 +54,12 @@ public class UtilisationJsonService {
             jsonItemService.ecrireListItems("data/items.json", items);
             System.out.println(jsonItemService.lireItem("data/item.json"));
             System.out.println(jsonItemService.lireListItems("data/items.json").size());
+
+            JsonService<Item> jsonServiceItem = new JsonService<>();
+            jsonServiceItem.ecrireList("data/itemsService.json", items);
+
+            JsonService<Client> jsonServiceClient = new JsonService<>();
+            jsonServiceClient.ecrireList("data/clientsService.json", Arrays.asList(clients));
         } catch (JsonProcessingException e) {
             System.err.println(e.getMessage());
         } catch (IOException e) {
