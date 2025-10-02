@@ -1,0 +1,136 @@
+[ {
+  "sigle" : "420-110-MV",
+  "nom" : "Documentation technique et profession",
+  "ponderation" : "2-1-2",
+  "unites" : 1.66
+}, {
+  "sigle" : "420-111-MV",
+  "nom" : "Introduction à la programmation informatique",
+  "ponderation" : "2-3-3",
+  "unites" : 2.66
+}, {
+  "sigle" : "420-112-MV",
+  "nom" : "Création de sites Web",
+  "ponderation" : "2-2-3",
+  "unites" : 2.33
+}, {
+  "sigle" : "420-113-MV",
+  "nom" : "Systèmes d’exploitation",
+  "ponderation" : "2-3-3",
+  "unites" : 2.66
+}, {
+  "sigle" : "201-184-MV",
+  "nom" : "Mathématiques de l'informatique",
+  "ponderation" : "2-2-2",
+  "unites" : 2.0
+}, {
+  "sigle" : "350-280-MV",
+  "nom" : "Interactions humaines en informatique",
+  "ponderation" : "1-2-1",
+  "unites" : 1.33
+}, {
+  "sigle" : "420-210-MV",
+  "nom" : "Programmation orientée objet",
+  "ponderation" : "2-3-2",
+  "unites" : 2.33
+}, {
+  "sigle" : "420-211-MV",
+  "nom" : "Applications Web",
+  "ponderation" : "2-3-2",
+  "unites" : 2.33
+}, {
+  "sigle" : "201-284-MV",
+  "nom" : "Géométrie vectorielle",
+  "ponderation" : "2-2-2",
+  "unites" : 2.0
+}, {
+  "sigle" : "420-212-MV",
+  "nom" : "Introduction aux bases de données",
+  "ponderation" : "2-2-2",
+  "unites" : 2.0
+}, {
+  "sigle" : "420-310-MV",
+  "nom" : "Architecture de logiciel",
+  "ponderation" : "2-1-2",
+  "unites" : 1.66
+}, {
+  "sigle" : "420-311-MV",
+  "nom" : "Structures de données",
+  "ponderation" : "2-2-2",
+  "unites" : 2.0
+}, {
+  "sigle" : "420-312-MV",
+  "nom" : "Conception de réseaux informatiques",
+  "ponderation" : "2-3-2",
+  "unites" : 2.33
+}, {
+  "sigle" : "420-313-MV",
+  "nom" : "Sécurité informatique",
+  "ponderation" : "2-2-2",
+  "unites" : 2.0
+}, {
+  "sigle" : "420-314-MV",
+  "nom" : "Programmation de plateformes embarquées",
+  "ponderation" : "2-2-2",
+  "unites" : 2.0
+}, {
+  "sigle" : "420-410-MV",
+  "nom" : "Introduction aux plateformes IdO",
+  "ponderation" : "2-3-2",
+  "unites" : 2.33
+}, {
+  "sigle" : "420-411-MV",
+  "nom" : "Interfaces humain-machine",
+  "ponderation" : "2-2-2",
+  "unites" : 2.0
+}, {
+  "sigle" : "420-412-MV",
+  "nom" : "Projet - Développement d’une application web",
+  "ponderation" : "1-5-3",
+  "unites" : 3.0
+}, {
+  "sigle" : "420-413-MV",
+  "nom" : "Développement d’applications pour entreprise",
+  "ponderation" : "2-2-2",
+  "unites" : 2.0
+}, {
+  "sigle" : "420-414-MV",
+  "nom" : "Infonuagique",
+  "ponderation" : "2-1-2",
+  "unites" : 1.66
+}, {
+  "sigle" : "420-510-MV",
+  "nom" : "Soutien informatique",
+  "ponderation" : "1-2-1",
+  "unites" : 1.33
+}, {
+  "sigle" : "420-511-MV",
+  "nom" : "Développement de jeux vidéo",
+  "ponderation" : "2-4-3",
+  "unites" : 3.0
+}, {
+  "sigle" : "420-512-MV",
+  "nom" : "Développement d’applications mobiles",
+  "ponderation" : "2-3-2",
+  "unites" : 2.33
+}, {
+  "sigle" : "420-513-MV",
+  "nom" : "Piratage éthique",
+  "ponderation" : "1-2-1",
+  "unites" : 1.33
+}, {
+  "sigle" : "420-514-MV",
+  "nom" : "Collecte et interprétation de données",
+  "ponderation" : "2-4-3",
+  "unites" : 3.0
+}, {
+  "sigle" : "420-610-MV",
+  "nom" : "Stage d’intégration en entreprise",
+  "ponderation" : "1-17-3",
+  "unites" : 7.0
+}, {
+  "sigle" : "420-611-MV",
+  "nom" : "Projet - Développement IdO",
+  "ponderation" : "1-5-4",
+  "unites" : 3.33
+} ]
