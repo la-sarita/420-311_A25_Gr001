@@ -36,15 +36,43 @@ class SeriePooTest {
     }
 
     @Test
-    @DisplayName("Claculer montant après taxe pour un montant négatif.")
-    void calculerMontantNegatifAvecTaxes(){
-      assertThrows(IllegalArgumentException.class, ()-> SeriePoo.calculerMontantAvecTaxes(-50, true, true));
+    @DisplayName("Rejette le calule pour un montant négatif")
+    void claculerTaxesVenteMontantNegatif(){
+        assertThrows(IllegalArgumentException.class, ()-> SeriePoo.calculerMontantAvecTaxes(-100, false, false));
     }
 
     @Test
-    @DisplayName("Claculer montant après l'application des deux taxes.")
-    void calculerMontantAvecDeuxTaxes(){
-        double result = SeriePoo.calculerMontantAvecTaxes(100, true, true);
-        assertEquals(115, result, 0.1);
+    @DisplayName("Montant nul retourne 0")
+    void claculerTaxesVenteMontantNull(){
+        double resultat = SeriePoo.calculerMontantAvecTaxes(0, true, true);
+        assertEquals(0, resultat);
+    }
+
+    @Test
+    @DisplayName("Montant positif sans aucune taxe retourne le montant initial")
+    void claculerTaxesVenteMontantPositifSansTaxes(){
+        double resultat = SeriePoo.calculerMontantAvecTaxes(100, false, false);
+        assertEquals(100, resultat);
+    }
+
+    @Test
+    @DisplayName("Montant positif avec les 2 taxes")
+    void claculerTaxesVenteMontantPositifAvecDeuxTaxes(){
+        double resultat = SeriePoo.calculerMontantAvecTaxes(100, true, true);
+        assertEquals(114.97, resultat, 0.01);
+    }
+
+    @Test
+    @DisplayName("Montant positif avec taxe fédérale")
+    void claculerTaxesVenteMontantPositifAvecTaxeProv(){
+        double resultat = SeriePoo.calculerMontantAvecTaxes(100, true, false);
+        assertEquals(109.97, resultat, 0.01);
+    }
+
+    @Test
+    @DisplayName("Montant positif avec taxe provinciale")
+    void claculerTaxesVenteMontantPositifAvecTaxeFed(){
+        double resultat = SeriePoo.calculerMontantAvecTaxes(100, false, true);
+        assertEquals(105.00, resultat, 0.01);
     }
 }
